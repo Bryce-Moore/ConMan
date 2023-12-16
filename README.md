@@ -14,7 +14,7 @@ ConMan is a simple yet effective CLI tool for managing SSH connections. It allow
 Clone the repository and build the project:
 
 ```bash
-git clone https://github.com/Bryce-Moore/Conman
+git clone https://github.com/Bryce-Moore/ConMan
 cd conman
 go build
 ```
