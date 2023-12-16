@@ -124,7 +124,7 @@ func DeleteConnection(name string) error {
     return SaveConnections(updatedConnections)
 }
 
-// SplitAddress splits the address into user and IP
+// Split the address into user and IP
 func SplitAddress(address string) (user, ip string, err error) {
     parts := strings.Split(address, "@")
     if len(parts) != 2 {
@@ -163,7 +163,7 @@ func main() {
         list      = flag.Bool("ls", false, "List saved connections")
         verbose   = flag.Bool("v", false, "Verbose output for listing")
         deleteCon = flag.String("d", "", "Delete a saved connection")
-	help      = flag.Bool("h", false, "Show help message")
+	    help      = flag.Bool("h", false, "Show help message")
     )
 
     flag.Parse()
